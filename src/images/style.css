@@ -1,0 +1,218 @@
+root {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  color: black;
+  gap: 10px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+h1 {
+  font-family: Tahoma, Verdana, serif;
+  font-style: normal;
+  font-weight: 900;
+  padding: 2rem;
+}
+h2,
+h3 {
+  font-family: Verdana, serif;
+  font-style: oblique;
+  font-weight: 900;
+  padding: 2rem;
+}
+.background {
+  /*background-image: url("./link\ pic.jpg");*/
+  background: linear-gradient(to top, whitesmoke, coral);
+  background-color: rgb(112, 243, 255);
+  margin: auto;
+  padding-top: 5rem;
+}
+
+.container {
+  /* background-color: transparent;*/
+  padding: 10rem;
+}
+
+/*main area color and position*/
+main {
+  background-color: whitesmoke;
+  grid-row: 2 / span 8;
+  grid-column: 1 / span 5;
+}
+
+.imageMe {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 4rem;
+}
+
+#aboutMe {
+  color: black;
+  text-align: center;
+  padding-top: 5rem;
+  background: linear-gradient(to top, whitesmoke, lightblue);
+}
+.card {
+  background: linear-gradient(to top, whitesmoke) blue;
+}
+.projectImg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5rem;
+  margin-bottom: 5rem;
+}
+
+.projectImg:hover {
+  opacity: 0.4;
+}
+
+#projects {
+  color: black;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5rem;
+}
+
+#contact-me {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: black;
+  background: linear-gradient(to top, whitesmoke, lightblue);
+}
+#resume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: black;
+  background: linear-gradient(to top, whitesmoke, coral);
+}
+.display-container {
+  max-width: 100%;
+  height: auto;
+  background-image: url("./glassrain.jpeg");
+  position: relative;
+  padding: 0;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center .bar {
+  display: inline-block;
+  width: auto;
+}
+.bar-block .center .bar-item {
+  text-align: center;
+}
+.center {
+  text-align: center !important;
+}
+.bar .bar-item {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+}
+.bar .dropdown-hover,
+.bar .dropdown-click {
+  position: static;
+  float: left;
+}
+.button {
+  background-color: rgb(192, 192, 192) !important;
+  color: #000 !important;
+  border: none;
+  display: block;
+  padding: 8px 16px 5px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: none;
+  margin: 0;
+  float: left;
+}
+.button:hover {
+  background-color: black !important;
+  color: grey !important;
+}
+.repButton {
+  background-color: rgb(192, 192, 192) !important;
+  color: #000 !important;
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  margin: 0;
+  border-radius: 12px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.repButton:hover {
+  background-color: black !important;
+  color: grey !important;
+  border-radius: 12px;
+}
+
+section ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+footer {
+  /*  background-color: grey;*/
+  grid-row: 10;
+  grid-column: 1 / span 5;
+  text-align: center;
+}
+
+/* screen size changes*/
+@media screen and (max-width: 576px) {
+  body {
+    background: black;
+  }
+  body.nav {
+    display: none;
+  }
+  #projects {
+    padding: 0rem;
+  }
+  .btn-lg {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: cornflowerblue;
+  }
+}
+@media screen and (min-width: 992px) {
+  body {
+    background: linear-gradient(to bottom, whitesmoke, cornflowerblue);
+  }
+}
