@@ -10,3 +10,12 @@
   padding-bottom: 2rem;
   border-radius: 8px;
 }
+h3 {
+  font-style: normal;
+  font-weight: 900;
+  color: black;
+  font-family: "Righteous", serif;
+  padding: 1rem;
+  font-size: 2em;
+  text-shadow: 0.03em 0.03em 0 turquoise;
+}

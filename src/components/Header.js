@@ -9,11 +9,9 @@ export default function Header() {
 
       <div class="display-middle padding-large text-light-grey center container top rounded">
         <h1 class="xxxlarge" id="firstName">
-          Adam
+          Adam Maresch
         </h1>
-        <h1 class="xxxlarge" id="lastName">
-          Maresch
-        </h1>
+        <h3 class="">FULL STACK DEVELOPER</h3>
       </div>
     </header>
   );

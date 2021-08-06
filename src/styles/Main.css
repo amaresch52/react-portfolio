@@ -1,13 +1,3 @@
-main {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
-
-main > section {
-  box-sizing: content-box;
-  margin-top: 20px;
-}
 h1,
 h2 {
   font-style: normal;
@@ -54,4 +44,32 @@ body {
 .container {
   background: linear-gradient(to top, coral, lightblue);
   opacity: 94%;
+  text-align: center;
+}
+.button {
+  background-color: rgb(192, 192, 192) !important;
+  color: #000 !important;
+  border: none;
+  display: block;
+  padding: 8px 16px 5px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: none;
+  margin: 0;
+  float: left;
+}
+a {
+  /*text-decoration: none;*/
+  opacity: 0.95;
+  align-items: center;
+  text-align: center;
+  display: block;
+  padding-bottom: 0.25rem;
+}
+
+a:hover {
+  opacity: 1;
+  color: black;
 }
