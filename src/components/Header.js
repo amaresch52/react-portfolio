@@ -4,8 +4,8 @@ import "../styles/Header.css";
 
 export default function Header() {
   return (
-    <header>
-      <img src={portrait} alt="Pic of Me" />
+    <header class="display-container content center">
+      <img class="imageMe" src={portrait} alt="Pic of Me" />
 
       <div>
         <h1 id="firstName">Adam</h1>

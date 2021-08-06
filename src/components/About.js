@@ -3,7 +3,7 @@ import "../styles/About.css";
 
 export default function About() {
   return (
-    <section id="aboutme">
+    <section class="shadow p-3 mb-5 bg-white rounded container" id="aboutme">
       <h2>About Me</h2>
       <article>
         <p>

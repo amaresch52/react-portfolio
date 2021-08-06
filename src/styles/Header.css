@@ -1,0 +1,12 @@
+.imageMe {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  border-radius: 8px;
+}

@@ -1,0 +1,9 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  padding: 5px;
+  width: 90%;
+  opacity: 94%;
+}
