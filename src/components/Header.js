@@ -7,9 +7,13 @@ export default function Header() {
     <header class="display-container content center">
       <img class="imageMe" src={portrait} alt="Pic of Me" />
 
-      <div>
-        <h1 id="firstName">Adam</h1>
-        <h1 id="lastName">Maresch</h1>
+      <div class="display-middle padding-large text-light-grey center container top rounded">
+        <h1 class="xxxlarge" id="firstName">
+          Adam
+        </h1>
+        <h1 class="xxxlarge" id="lastName">
+          Maresch
+        </h1>
       </div>
     </header>
   );
