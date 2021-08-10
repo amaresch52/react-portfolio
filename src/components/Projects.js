@@ -28,6 +28,7 @@ export default function Projects() {
                   class="card-img-top img"
                   src={ever24}
                   style={{ width: 340, height: 250 }}
+                  alt="ever24 app"
                 />
                 <div class="card-block">
                   <h5 class="card-title">
@@ -75,6 +76,7 @@ export default function Projects() {
                   class="card-img-top img"
                   src={password}
                   style={{ width: 340, height: 250 }}
+                  alt="password generator"
                 />
                 <div class="card-block">
                   <h5 class="card-title">
@@ -118,6 +120,7 @@ export default function Projects() {
                   class="card-img-top img"
                   src={currency}
                   style={{ width: 340, height: 250 }}
+                  alt="currency exchange tool"
                 />
                 <div class="card-block">
                   <h5 class="card-title">
@@ -162,6 +165,7 @@ export default function Projects() {
                   class="card-img-top img"
                   src={scheduler}
                   style={{ width: 340, height: 250 }}
+                  alt="work scheduler"
                 />
                 <div class="card-block">
                   <h5 class="card-title">
