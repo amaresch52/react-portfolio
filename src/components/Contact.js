@@ -13,7 +13,7 @@ export default function Contact() {
           <br />
           <a href="mailto:amaresch52@gmail.com " class="xxlarge">
             {" "}
-            <i class="fa fa-envelope fa-4x icon" aria-hidden="true "></i>
+            <i class="fa fa-envelope fa-4x icon"></i>
             <br />
             <br /> amaresch@gmail.com
           </a>
