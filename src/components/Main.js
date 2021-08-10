@@ -4,6 +4,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
 import "../styles/Main.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Main() {
   const [currentPage, setCurrentPage] = useState("About");

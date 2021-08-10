@@ -1,0 +1,20 @@
+.icon {
+  color: black;
+  text-shadow: 2px 2px 5px turquoise;
+}
+.icon:hover {
+  color: tomato;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+#contact-me {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /*color: black;*/
+  background: linear-gradient(to top, whitesmoke, lightblue);
+}

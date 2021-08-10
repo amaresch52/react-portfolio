@@ -3,40 +3,74 @@ import "../styles/Contact.css";
 
 export default function Contact() {
   return (
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <div>
-        <figure id="resume">
+    <div id="contact">
+      <div class="container shadow p-3 mb-5 bg-white rounded" id="contact-me">
+        <div class="col-sm-12 col-xs-12 text-center ">
+          <br />
+          <h1>Like what you see?</h1>
+          <h3 id="email-header ">I'd love to connect with you!</h3>
+          <br />
+          <br />
+          <a href="mailto:amaresch52@gmail.com " class="xxlarge">
+            {" "}
+            <i class="fa fa-envelope fa-4x icon" aria-hidden="true "></i>
+            <br />
+            <br /> amaresch@gmail.com
+          </a>
+          <br />
+          <br />
+          <h3 id="socialmedia-header ">Or, find me online</h3>
+          <br />
+          <br />
+          <div id="myToolTip "></div>
+          <ul class="list-unstyled ">
+            <li>
+              <a
+                class="hoverable "
+                title="LinkedIn "
+                href="https://www.linkedin.com/in/adam-maresch-549816100/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa fa-linkedin fa-4x icon"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="hoverable "
+                title="GitHub "
+                href="https://github.com/amaresch52"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa fa-github fa-4x icon"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container shadow p-3 mb-5 bg-white rounded" id="resume">
+        <h1>Résumé</h1>
+        <h2>Click below for a copy of my résumé</h2>
+        <a
+          href="assets/Adam Maresch Resume.pdf"
+          type="button"
+          class="btn btn-lg btn-secondary repButton"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Adam Maresch - Résumé
+        </a>
+
+        <div>
           <a
-            href="../images/Adam Maresch Resume.pdf"
-            target="_blank"
-            rel="noreferrer"
+            href="assets/Adam Maresch Resume.pdf"
+            download="Adam Maresch Resume"
           >
             <i class="fa fa-save fa-4x icon"></i>
-            <p>Resume</p>
           </a>
-        </figure>
-        <figure id="linkedin">
-          <a
-            href="https://www.linkedin.com/in/adam-maresch-j52/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="fa fa-linkedin fa-4x icon"></i>
-            <p>Linkedin</p>
-          </a>
-        </figure>
-        <figure id="github">
-          <a
-            href="https://github.com/amaresch52"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="fa fa-github fa-4x icon"></i>
-            <p>GitHub</p>
-          </a>
-        </figure>
+        </div>
       </div>
-    </section>
+    </div>
   );
 }
