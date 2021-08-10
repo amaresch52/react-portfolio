@@ -5,7 +5,7 @@ export default function Nav({ currentPage, handlePageChange }) {
   return (
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="#About"></a>
         <button
           class="navbar-toggler"
           type="button"
