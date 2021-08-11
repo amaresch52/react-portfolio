@@ -43,7 +43,7 @@ body {
 .top,
 .container {
   background: linear-gradient(to top, coral, lightblue);
-  opacity: 94%;
+  /*opacity: 94%;*/
   text-align: center;
 }
 .button {
@@ -62,7 +62,7 @@ body {
 }
 a {
   /*text-decoration: none;*/
-  opacity: 0.95;
+  /*opacity: 0.95;*/
   align-items: center;
   text-align: center;
   display: block;
@@ -70,6 +70,6 @@ a {
 }
 
 a:hover {
-  opacity: 1;
+  /*opacity: 1;*/
   color: black;
 }
