@@ -20,7 +20,7 @@ export default function Nav({ currentPage, handlePageChange }) {
           <div class="navbar-nav">
             <a
               class="nav-link"
-              href="#header"
+              href="#About"
               alt="About"
               onClick={() => handlePageChange("About")}
             >
@@ -30,7 +30,7 @@ export default function Nav({ currentPage, handlePageChange }) {
           <div>
             <a
               class="nav-link"
-              href="#header"
+              href="#Projects"
               alt="Projects"
               onClick={() => handlePageChange("Projects")}
             >
@@ -40,7 +40,7 @@ export default function Nav({ currentPage, handlePageChange }) {
           <div>
             <a
               class="nav-link"
-              href="#header"
+              href="#Contact"
               alt="Contact"
               onClick={() => handlePageChange("Contact")}
             >
